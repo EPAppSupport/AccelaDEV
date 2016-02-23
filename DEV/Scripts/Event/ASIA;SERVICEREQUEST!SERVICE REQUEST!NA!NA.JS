@@ -1,0 +1,11 @@
+
+if (matches(currentUserID,'HERNANDEZGU')) {
+	
+//replaced branch(COEP_SERVICE_REQUEST_EMAIL)
+COEP_SERVICE_REQUEST_EMAIL();
+	}
+
+
+//replaced branch(COEP_SERVICE_REQ_UPDATE_WORKFLOW)
+COEP_SERVICE_REQ_UPDATE_WORKFLOW();
+
