@@ -1,0 +1,3 @@
+
+associateMessagesToRecords(messages);
+
