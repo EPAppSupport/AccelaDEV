@@ -14,5 +14,5 @@ if (wfTask == 'Task Assignment' && matches(wfStatus, 'Assign Electronic Review')
 	if (!requiredDocFound)
 		showMessage = true;
 	if (!requiredDocFound)
-		comment('No documents found that meet the criteria for Electronic Plan Review.  Make sure the document category is applicable for Plan Review, and that the document status is ' Uploaded '.');
+		comment("No documents found that meet the criteria for Electronic Plan Review.  Make sure the document category is applicable for Plan Review, and that the document status is 'Uploaded'.");
 }

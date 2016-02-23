@@ -677,8 +677,7 @@ if ((appMatch('Building/3rd/*/*') || appMatch('Building/Residential/*/*') || app
 	}
 
 if (appMatch('Building/Commercial/*/*') && wfTask == 'Application Submittal' && wfStatus == 'Completed' && AInfo['Grease Trap']=='Yes') {
-	email('sgalindo@epwu.org;
-	Nenye@epwu.org','accela@elpasotexas.gov',('Record ' + capIDString + ' has been updated.'), ('Grease Traps are required for Business/Project: ' + capName + '.  The business address is ' + CapAddress + '.  If an EPWU Registration number was provided, the number is ' + AInfo['EPWU Registration']));
+	email('sgalindo@epwu.org;Nenye@epwu.org','accela@elpasotexas.gov',('Record ' + capIDString + ' has been updated.'), ('Grease Traps are required for Business/Project: ' + capName + '.  The business address is ' + CapAddress + '.  If an EPWU Registration number was provided, the number is ' + AInfo['EPWU Registration']));
 	}
 
 if (wfTask == 'Task Assignment' && wfStatus == 'Assign Electronic Review') {

@@ -149,8 +149,7 @@ inspResult = null;
 	}
 
 	if (appMatch('Health/Food Inspections/Fixed Location/*') && wfTask == 'Application Submittal' && wfStatus == 'Submitted' && AInfo['Grease Trap'] == 'Yes') {
-		email('sgalindo@epwu.org;
-				Nenye@epwu.org', 'accela@elpasotexas.gov', ('Record ' + capIDString + ' has been updated.'), ('Grease Traps are required for Business/Project: ' + capName + '.  The business address is ' + CapAddress + '.  If an EPWU Registration number was provided, the number is ' + AInfo['EPWU Registration']));
+		email('sgalindo@epwu.org;Nenye@epwu.org', 'accela@elpasotexas.gov', ('Record ' + capIDString + ' has been updated.'), ('Grease Traps are required for Business/Project: ' + capName + '.  The business address is ' + CapAddress + '.  If an EPWU Registration number was provided, the number is ' + AInfo['EPWU Registration']));
 	}
 
 }
