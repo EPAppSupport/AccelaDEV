@@ -121,7 +121,7 @@
 
 			if (presSched == false) {
 				showMessage = true;
-				comment('Cannot move workflow because there is no scheduled ' Presentation Date ' and/or ' Presentation Time ' field on the ASI Table Scheduled Information is not filled out.');
+				comment("Cannot move workflow because there is no scheduled 'Presentation Date' and/or 'Presentation Time' field on the ASI Table Scheduled Information is not filled out.");
 				cancel = true;
 			}
 
