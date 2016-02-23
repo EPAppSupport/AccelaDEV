@@ -20,7 +20,7 @@
 					comment('Complaint Type is: ' + rowValue['Complaint Type']);
 					if (rowValue['Complaint Type'] == null) {
 						showMessage = true;
-						comment('The ASI Table ' Complaint Type ' must be populated on this CAP before updating the workflow.');
+						comment("The ASI Table ' Complaint Type ' must be populated on this CAP before updating the workflow.");
 						cancel = true;
 					}
 

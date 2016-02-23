@@ -53,7 +53,8 @@
 		{
 			nextInspDate = dateAdd(null, 1);
 			if (AInfo['Building, Ele, Plm and Mech Review and Inspection Required'] == 'Yes') {
-				scheduleInspectDate('Building Event Inspection', nextInspDate, 'ROTHRE';
+				// TODO: syntax error below
+				//scheduleInspectDate('Building Event Inspection', nextInspDate, 'ROTHRE';
 				}
 
 				//start replaced branch: ES_CITY_FDInspection

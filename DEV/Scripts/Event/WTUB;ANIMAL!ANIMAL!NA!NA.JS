@@ -31,13 +31,13 @@
 		cancel = true;
 		showMessage = true;
 		// TODO: fixed "colore" tag
-		comment('<font color=red><b>ASI Field ' Meets Adoptable Criteria ' must be populated before the task can be resulted.</b</font>');
+		comment("<font color=red><b>ASI Field 'Meets Adoptable Criteria' must be populated before the task can be resulted.</b</font>");
 	}
 
 	if (wfTask == 'Claim' && wfStatus == 'No EU' && uDept != 'Animal Sr Shelter') {
 		cancel = true;
 		showMessage = true;
-		comment('<font color=red><b>User must be a member of the ' Animal Sr Shelter ' group inorder to result this task with the status of ' No EU '.</b</font>');
+		comment("<font color=red><b>User must be a member of the 'Animal Sr Shelter' group inorder to result this task with the status of 'No EU'.</b</font>");
 	}
 
 	if (wfTask == 'Completeness Check' && wfStatus == 'Euthanize' && uDept != 'Animal Sr Shelter' && (AInfo['Pet Status'] == 'ADOPT' || AInfo['Pet Status'] == 'TNR' || AInfo['Pet Status'] == 'VIP')) {

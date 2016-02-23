@@ -7,11 +7,10 @@ if (appMatch('Animal/Cage/NA/NA') && AInfo['Delivery']=='Yes') {
 	}
 
 // TODO:  branch doesn't exist
-/*
 if (appMatch('Animal/*/*/*')) {
-	branch('ES_Animal_SocialMedia_AppSubmitAfter');
+//	branch('ES_Animal_SocialMedia_AppSubmitAfter');
 	}
-*/
+
 
 if (appMatch('Animal/Complaint/*/*') && AInfo['Complaint Type']) {
 	var inspType = lookup('LKUP_Animal_ComplaintTypeToInspectionType', String(AInfo['Complaint Type']).toUpperCase());

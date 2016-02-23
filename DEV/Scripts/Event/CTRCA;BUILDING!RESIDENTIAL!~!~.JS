@@ -14,7 +14,5 @@ if ((conArray[y].getPeople().contactType == 'APPLICANT')) {
 
 }
 //end replaced branch: ACA_ASA_EMAIL_APPLICANT;
-email('DeLaCruzJA@elpasotexas.gov;
-ChaviraD1@elpasotexas.gov;
-LamasMX@elpasotexas.gov', 'accela@elpasotexas.gov', appTypeArray[1] + ' ' + appTypeArray[2] + ' Submitted - ' + capIDString, 'Attention, <BR> <BR> Record ID <b>' + capIDString + '</b> has been submitted through ACA. <BR><BR> Group: <b>' + appTypeArray[0] + '</b><BR> Type: <b>' + appTypeArray[1] + '</b><BR> Subtype: <b>' + appTypeArray[2] + '</b><BR> Category: <b>'  + appTypeArray[3] + '</b>');
+email('DeLaCruzJA@elpasotexas.gov;ChaviraD1@elpasotexas.gov;LamasMX@elpasotexas.gov', 'accela@elpasotexas.gov', appTypeArray[1] + ' ' + appTypeArray[2] + ' Submitted - ' + capIDString, 'Attention, <BR> <BR> Record ID <b>' + capIDString + '</b> has been submitted through ACA. <BR><BR> Group: <b>' + appTypeArray[0] + '</b><BR> Type: <b>' + appTypeArray[1] + '</b><BR> Subtype: <b>' + appTypeArray[2] + '</b><BR> Category: <b>'  + appTypeArray[3] + '</b>');
 

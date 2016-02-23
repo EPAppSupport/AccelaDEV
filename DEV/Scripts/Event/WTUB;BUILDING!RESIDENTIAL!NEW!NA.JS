@@ -22,6 +22,6 @@ if (wfTask == 'Completeness Check'  && wfStatus == 'Ready to Issue' && CompileFa
 if (wfTask == 'Completeness Check' && wfStatus == 'Ready to Issue' && isTaskStatus('Land Development Review', 'Obtain Permit')) {
 	cancel = true;
 	showMessage = true;
-	comment('Action not allowed. Status 'Obtain Permit' must be changed in Land Development Review');
+	comment("Action not allowed. Status 'Obtain Permit' must be changed in Land Development Review");
 	}
 
