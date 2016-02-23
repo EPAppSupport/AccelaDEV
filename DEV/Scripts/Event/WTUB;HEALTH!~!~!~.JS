@@ -76,7 +76,7 @@
 
 			if (((courseComp == false && courseComp2 == false) || (courseComp == true && courseComp2 == true))) {
 				showMessage = true;
-				comment(courseComp + '  Cannot issue Food Handler permit because the latest scheduled ' Course Date ' and/or ' Course Time ' field on the ASI Table SCHEDULE INFORMATION or RECOGNIZED COURSE INFORMATION is not filled out and/or completed.');
+				comment(courseComp + "  Cannot issue Food Handler permit because the latest scheduled 'Course Date' and/or 'Course Time' field on the ASI Table SCHEDULE INFORMATION or RECOGNIZED COURSE INFORMATION is not filled out and/or completed.");
 				cancel = true;
 			}
 
