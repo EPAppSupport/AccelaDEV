@@ -1,3 +1,4 @@
+/* Standard Choice disabled WTUB:Licenses!~!~!~
 
 if (( wfTask == 'Issue' || wfTask == 'Issued')  && wfStatus == 'Issued' && balanceDue > 0) {
 	showMessage = true;
@@ -5,3 +6,4 @@ if (( wfTask == 'Issue' || wfTask == 'Issued')  && wfStatus == 'Issued' && balan
 	cancel = true;
 	}
 
+*/

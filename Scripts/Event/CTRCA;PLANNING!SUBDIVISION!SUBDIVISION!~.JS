@@ -1,3 +1,4 @@
+/* standard choice disabled CTRCA:Planning/Subdivision/Subdivision/~
 
 if (publicUser) {
 	capIdString = capId.getCustomID();
@@ -7,4 +8,6 @@ if (publicUser) {
 //replaced branch(ES_PLANNING_APP_SUBMITTED_ACA_EMAIL)
 ES_PLANNING_APP_SUBMITTED_ACA_EMAIL();
 	}
+	
+*/
 

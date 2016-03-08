@@ -1,3 +1,5 @@
+/* STANDARD choice disabled WTUA:Planning/Subdivision/Subdivision/~
+
 
 if (wfTask == 'Revisions' && wfStatus == 'Recommend Approval') {
 	capIdString = capId.getCustomID();
@@ -16,3 +18,5 @@ if ((wfStatus == 'Recommend Denial')) {
 		//replaced branch(ES_WORKFLOW_BUILDING_ACA_EMAIL)
 		ES_WORKFLOW_BUILDING_ACA_EMAIL();
 }
+
+*/
