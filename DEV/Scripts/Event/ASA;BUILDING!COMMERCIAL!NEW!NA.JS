@@ -1,5 +1,5 @@
 
-Tif (AInfo['Plan Includes Swimming Pool'] == 'Yes') {
+if (AInfo['Plan Includes Swimming Pool'] == 'Yes') {
 	//updateFee('FB110','COMMNEW','STANDARD',1,'Y','N');
 	a = b;
 	}
