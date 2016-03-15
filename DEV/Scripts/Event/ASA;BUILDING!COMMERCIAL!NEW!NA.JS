@@ -1,6 +1,7 @@
 
 Tif (AInfo['Plan Includes Swimming Pool'] == 'Yes') {
-	updateFee('FB110','COMMNEW','STANDARD',1,'Y','N');
+	//updateFee('FB110','COMMNEW','STANDARD',1,'Y','N');
+	a = b;
 	}
 
 if (AInfo['Plan Includes Spa'] == 'Yes') {
